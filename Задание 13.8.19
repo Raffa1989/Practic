@@ -8,3 +8,4 @@ elif age in range(18, 26):
 else:
     price = 1390
 print("Сумма к оплате:", request*price*discount)
+
