@@ -1,0 +1,10 @@
+request = int(input("Введите количество билетов:"))
+age = int(input("Введите свой возраст:"))
+discount = 0.9 if request > 3 else 1
+if age < 18:
+    price = 0
+elif age in range(18, 26):
+    price = 990
+else:
+    price = 1390
+print("Сумма к оплате:", request*price*discount)
